@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/css.css">
+  <title>Mind Game</title>
+</head>
+<body>
+  <table>
+    <tr>
+      <td colspan="2">
+        <p class="screen">
+          <span class="time">Time: 0</span>
+          <span class="wrong">Wrongs: 0</span>
+          <span class="award">Awards: 0</span>
+        </p>
+      </td>
+      <td class="allobjects">
+        <p>
+          <img src="/imagse/img1.png" alt="">
+          <img src="/imagse/img2.png" alt="">
+          <img src="/imagse/img3.png" alt="">
+          <img src="/imagse/img4.png" alt="">
+          <img src="/imagse/img5.png" alt="">
+          <img src="/imagse/img6.png" alt="">
+          <img src="/imagse/img7.png" alt="">
+          <img src="/imagse/img8.png" alt="">
+        </p>
+      </td>
+      <td>
+        <button onclick="start(this)">Start</button>
+      </td>
+    </tr>
+    <tr onclick="rotate(event)">
+      <td><div class="cell1"> </div><span class="final"></span></td>
+      <td><div class="cell2"> </div><span  class="final2"></span></td>
+      <td><div class="cell3"> </div><span class="final"></span></td>
+      <td><div class="cell4"> </div><span class="final2"></span></td>
+    </tr>
+    <tr onclick="rotate(event)">
+      <td><div class="cell5"> </div><span class="final"></span></td>
+      <td><div class="cell6"> </div><span class="final2"></span></td>
+      <td><div class="cell7"> </div><span class="final"></span></td>
+      <td><div class="cell8"> </div><span class="final2"></span></td>
+    </tr>
+    <tr onclick="rotate(event)">
+      <td><div class="cell9"> </div><span class="final"></span></td>
+      <td><div class="cell10"> </div><span  class="final2"></span></td>
+      <td><div class="cell11"> </div><span class="final"></span></td>
+      <td><div class="cell12"> </div><span class="final2"></span></td>
+    </tr>
+    <tr onclick="rotate(event)">
+      <td><div class="cell13"> </div><span class="final2"></span></td>
+      <td><div class="cell14"> </div><span class="final"></span></td>
+      <td><div class="cell15"> </div><span class="final2"></span></td>
+      <td><div class="cell16"> </div><span class="final"></span></td>
+    </tr>
+  </table>
+  <script src="/JS/main.js"></script>
+</body>
+</html>
