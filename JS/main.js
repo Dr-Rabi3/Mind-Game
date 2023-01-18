@@ -73,8 +73,7 @@ function Award(imgs) {
 }
 function rotate(div) {
   if ( classes.length === 1 && classes[0] === '') classes.shift();
-  if (div.target.className === classes[0] || !ok) return;
-  console.log(div.target);
+  if (div.target.className === classes[0] || !ok || div.target.getAttribute("ans") !== "true") return;
   classes.push(div.target.className);
   div.target.style.cssText = "transform: rotateY(180deg);";
   console.log(classes);
