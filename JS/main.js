@@ -26,6 +26,7 @@ divs.forEach((e) => {
   colors.splice(x, 1);
 });
 function start() {
+  if (ok === true) return;
   ok = true;
   divs.forEach((e) => {
     e.style.cssText = "transform: rotateY(-180deg);";
