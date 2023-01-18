@@ -27,7 +27,15 @@ divs.forEach((e) => {
 });
 function start() {
   ok = true;
-  setInterval(timer, 1000);
+  divs.forEach((e) => {
+    e.style.cssText = "transform: rotateY(-180deg);";
+  });
+  setTimeout(() => {
+    divs.forEach((e) => {
+      e.style.cssText = "transform: rotateY(-360deg);";
+    })
+    setInterval(timer, 1000);
+  },1500);
 }
 function delet(div1, div2) {
   cnt++;
