@@ -47,8 +47,7 @@ function delet(div1, div2) {
     document.querySelector(`.${div1} + span`).style.cssText = "width:75px;height:110px;";
     document.querySelector(`.${div2} + span`).style.cssText = "width:75px;height:110px;";
     if (cnt >= 8) {
-      styleElem.innerHTML += `table{overflow: visible !important;}`;
-      styleElem.innerHTML += `table:before{top:30% !important;}`;
+      styleElem.innerHTML += `footer.congatulation{display:flex;}`;
       clearInterval(time);
       time = "";
     }
