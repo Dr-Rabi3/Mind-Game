@@ -1,4 +1,4 @@
-let colors = ["/imagse/img1.png","/imagse/img2.png","/imagse/img3.png","/imagse/img4.png","/imagse/img5.png","/imagse/img6.png","/imagse/img7.png","/imagse/img8.png","/imagse/img1.png","/imagse/img2.png","/imagse/img3.png","/imagse/img4.png","/imagse/img5.png","/imagse/img6.png","/imagse/img7.png","/imagse/img8.png"];
+let colors = ["imagse/img1.png","imagse/img2.png","imagse/img3.png","imagse/img4.png","imagse/img5.png","imagse/img6.png","imagse/img7.png","imagse/img8.png","imagse/img1.png","imagse/img2.png","imagse/img3.png","imagse/img4.png","imagse/img5.png","imagse/img6.png","imagse/img7.png","imagse/img8.png"];
 let divs = document.querySelectorAll('div');
 var styleElem = document.head.appendChild(document.createElement("style"));
 let time = document.querySelector('.time');
