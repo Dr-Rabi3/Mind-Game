@@ -63,7 +63,7 @@ div{
 }
 div::before{
   content: "";
-  background-image:url(/imagse/pngtree-hand-drawn-cartoon-question-mark-decorative-icon-free-illustration-clipart-png-image_6484278.png);
+  background-image:url(imagse/pngtree-hand-drawn-cartoon-question-mark-decorative-icon-free-illustration-clipart-png-image_6484278.png);
   background-size: cover;
   background-position: -17px;
   position: absolute;
@@ -102,14 +102,14 @@ div + span{
 }
 .final{
   background-color: #ffe7b8;
-  background-image: url(/imagse/final.gif);
+  background-image: url(imagse/final.gif);
   background-size: 60px;
   background-repeat: no-repeat;
   background-position: 50%;
 }
 .final2{
   background-color: #fff;
-  background-image: url(/imagse/final2.gif);
+  background-image: url(imagse/final2.gif);
   background-size: 60px;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -140,5 +140,5 @@ footer .party1, footer .party2{
   display: block;
   width: 50%;
   height: 100%;
-  background: url("/imagse/85744-success.gif");
+  background: url("imagse/85744-success.gif");
 }
