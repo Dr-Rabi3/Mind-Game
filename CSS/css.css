@@ -63,7 +63,7 @@ div{
 }
 div::before{
   content: "";
-  background-image:url(CSS/imagse/pngtree-hand-drawn-cartoon-question-mark-decorative-icon-free-illustration-clipart-png-image_6484278.png);
+  background-image: url(../imagse/pngtree-hand-drawn-cartoon-question-mark-decorative-icon-free-illustration-clipart-png-image_6484278.png);
   background-size: cover;
   background-position: -17px;
   position: absolute;
